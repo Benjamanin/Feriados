@@ -1,0 +1,40 @@
+/* Estilos para el contenedor principal */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura completa de la ventana */
+  flex-direction: column; /* Alinea los elementos en columna */
+}
+
+/* Estilos para el select y el botón */
+.select-button-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px; /* Espacio entre el párrafo y el select */
+}
+
+select {
+  margin-right: 10px; /* Espacio entre el select y el botón */
+  margin-left: 100px;
+  width: 200px;
+  text-align: center;
+
+}
+
+/* Estilos para el título y el párrafo */
+h1{
+  text-align: left;
+  margin: 0;
+  margin-left: 100px;
+}
+h2{
+  margin-left: 100px;
+  margin-top: 50px;
+}
+p{
+  margin-left: 30px;
+}
+p1{
+  margin-left: 100px;
+}
